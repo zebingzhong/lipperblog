@@ -8,12 +8,15 @@
   },
   "dependencies": {
     "axios": "^0.20.0-0",
+    "postcss-px2rem": "^0.3.0",
+    "px2rem-loader": "^0.1.9",
     "vant": "^3.2.5",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@types/node": "^16.11.2",
     "@vitejs/plugin-vue": "^1.9.3",
     "vite": "^2.6.4"
   }
