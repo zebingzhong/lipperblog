@@ -1,9 +1,17 @@
 <template>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-            </div>
-        </nav>
+  <div class="lipper-header">
+    <div class="lipper-header-content">
+      <div class="lipper-logo"></div>
+      <div class="lipper-nav">
+        <ul>
+          <li>首页</li>
+          <li>原创</li>
+          <li>分享</li>
+          <li>视频</li>
+          <li>资讯</li>
+        </ul>
+      </div>
+      <div class="lipper-search"></div>
     </div>
+  </div>
 </template>

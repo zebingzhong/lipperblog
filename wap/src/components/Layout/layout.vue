@@ -1,7 +1,5 @@
 <template>
-    <div class="lipper-box">
-        <router-view/>
-    </div>
+    <router-view/>
 </template>
 
 <script>
