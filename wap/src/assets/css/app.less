@@ -44,8 +44,13 @@ div::-webkit-scrollbar {
 
 body {
     font-size: 14px;
-    color: #737088;
+    color    : #737088;
 }
+
+.warp {
+    margin: 10px;
+}
+
 //------------首页-----------------------
 //------------header--------------------
 .lipper-header {
@@ -57,27 +62,54 @@ body {
         display              : grid;
         grid-template-columns: 150px auto 200px;
 
+        .lipper-logo {
+            width : 100px;
+            height: 50px;
+            margin: auto;
+
+            img {
+                width : 100%;
+                height: 100%;
+            }
+        }
+
         .lipper-nav {
             height: 50px;
+
             ul {
                 display       : flex;
                 flex-direction: row;
-                height: 50px;
+                height        : 50px;
 
                 li {
-                    width     : 100px;
-                    text-align: center;
-                    display: inline-block;
-                    list-style: none;
-                    font-size: 15px;
-                    height: 100%;
+                    width      : 100px;
+                    text-align : center;
+                    display    : inline-block;
+                    list-style : none;
+                    font-size  : 15px;
+                    height     : 100%;
                     line-height: 48px;
                 }
+
                 :hover {
                     color: #0dce9e;
                 }
             }
         }
     }
+}
 
+.lipper-banner {
+    max-height: 500px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.lipper-content {
+    max-width            : 1280px;
+    margin               : auto;
+    display              : grid;
+    grid-template-columns: auto 400px;
 }
