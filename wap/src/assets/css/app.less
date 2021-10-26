@@ -45,6 +45,7 @@ div::-webkit-scrollbar {
 body {
     font-size: 14px;
     color    : #737088;
+    background-color:#f9f9f9;
 }
 
 .warp {
@@ -55,7 +56,7 @@ body {
 //------------header--------------------
 .lipper-header {
     height: 50px;
-
+    background-color: #fff;
     .lipper-header-content {
         max-width            : 1280px;
         margin               : auto;
@@ -112,4 +113,81 @@ body {
     margin               : auto;
     display              : grid;
     grid-template-columns: auto 400px;
+    .box-left {
+        margin: 10px;
+    }
+    .box-right {
+        margin: 10px;
+    }
+}
+.lipper-item{
+    padding:20px;
+    background-color:#fff;
+    margin: 20px;
+    .item-header{
+        display: flex;
+        flex-direction:row;
+    }
+    .lipper-avatar{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    .item-title{
+        margin-left:20px;
+        display: flex;
+        flex-direction: column;
+        .item-title-tip{
+            font-weight: 600;
+        }
+        .item-labels{
+            padding:10px;
+            .item-label{
+            }
+            .item-time{
+                margin-left:20px;
+            }
+        }
+    }
+    .lipper-desc{
+        margin-top: 20px;
+    }
+    .item-cover {
+        width: 100%;
+        margin-top: 20px;
+        display              : grid;
+        grid-template-columns: auto 300px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.box-right{
+    .hot-box{
+        padding:10px;
+        margin-top:20px;
+        border-radius: 5px;
+        .hot-tip{
+            margin: 10px 0;
+        }
+        .hot-item{
+            margin: 10px;
+            padding:10px;
+            display              : grid;
+            grid-template-columns: auto 200px; 
+            background-color: #fff;   
+            img{
+                width:100px;
+                height:80px;
+            }
+            .hot-content{
+              display: flex;
+              flex-direction: column;
+              div{
+                  margin: 10px;
+              }  
+            }
+        }
+    }
 }
