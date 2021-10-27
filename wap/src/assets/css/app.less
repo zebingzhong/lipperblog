@@ -102,9 +102,10 @@ body {
 
 .lipper-banner {
     max-height: 500px;
-
+    display: block;
     img {
         width: 100%;
+        max-height:500px;
     }
 }
 
@@ -124,6 +125,7 @@ body {
     padding:20px;
     background-color:#fff;
     margin: 20px;
+    border-radius: 5px;
     .item-header{
         display: flex;
         flex-direction:row;
@@ -165,18 +167,17 @@ body {
 
 .box-right{
     .hot-box{
-        padding:10px;
         margin-top:20px;
         border-radius: 5px;
         .hot-tip{
             margin: 10px 0;
         }
         .hot-item{
-            margin: 10px;
-            padding:10px;
+            margin: 10px 0;
             display              : grid;
-            grid-template-columns: auto 200px; 
-            background-color: #fff;   
+            grid-template-columns: auto 200px;
+            background-color: #fff;
+            border-radius: 5px;
             img{
                 width:100px;
                 height:80px;
@@ -186,7 +187,7 @@ body {
               flex-direction: column;
               div{
                   margin: 10px;
-              }  
+              }
             }
         }
     }
