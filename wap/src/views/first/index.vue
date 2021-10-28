@@ -23,6 +23,14 @@
             <div class="lipper-banner">
                 <img src="@/assets/images/banner.jpeg" alt=""/>
             </div>
+            <div class="lipper-total">
+                <img src="@/assets/images/avatar.webp" alt=""/>
+                <ul>
+                    <li><span>文章数量</span><label>123</label></li>
+                    <li><span>访客人数</span><label>1563</label></li>
+                    <li><span>评论条数</span><label>421</label></li>
+                </ul>
+            </div>
             <div class="lipper-content">
                 <div class="warp box-left">
                     <div class="lipper-item">
@@ -61,8 +69,8 @@
                 </div>
 
                 <div class="warp box-right">
-                    <div class="hot-box">
-                        <div class="hot-tip">热门排行</div>
+                    <div class="right-item-box">
+                        <div class="item-box-tip">热门排行</div>
                         <div class="hot-item">
                             <img src="@/assets/images/img2.webp" alt="">
                             <div class="hot-content">
@@ -85,6 +93,40 @@
                             </div>
                         </div>
                     </div>
+                    <div class="right-item-box">
+                        <div class="item-box-tip">最新留言</div>
+                        <div class="item-comment">
+                            <div class="item-comment-header">
+                                <img src="@/assets/images/avatar.webp" alt="" />
+                                <div class="item-comment-name">发黑的星星</div>
+                                <div class="item-comment-time">10月20日</div>
+                            </div>
+                            <div class="item-comment-content">
+                                钱到位IHI，请问企鹅哦ad
+                            </div>
+                        </div>
+                         <div class="item-comment">
+                            <div class="item-comment-header">
+                                <img src="@/assets/images/avatar.webp" alt="" />
+                                <div class="item-comment-name">发黑的星星</div>
+                                <div class="item-comment-time">10月20日</div>
+                            </div>
+                            <div class="item-comment-content">
+                                钱到位IHI，请问企鹅哦ad
+                            </div>
+                        </div> 
+                         <div class="item-comment">
+                            <div class="item-comment-header">
+                                <img src="@/assets/images/avatar.webp" alt="" />
+                                <div class="item-comment-name">发黑的星星</div>
+                                <div class="item-comment-time">10月20日</div>
+                            </div>
+                            <div class="item-comment-content">
+                                钱到位IHI，请问企鹅哦ad
+                            </div>
+                        </div> 
+                    </div>
+                    
                 </div>
             </div>
         </div>

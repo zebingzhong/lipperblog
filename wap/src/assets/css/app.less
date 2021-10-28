@@ -109,6 +109,43 @@ body {
     }
 }
 
+//----------------统计------------
+.lipper-total{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top:10px;
+    img{
+        background-color: #fff;
+        display: flex;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        margin-top:-140px;
+        margin-left: 30px;
+        padding: 10px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 300px;
+        li{
+            width: 100px; 
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            span{
+                margin: auto;
+            }
+            label{
+                margin: auto;
+                padding: 10px;
+            }
+        }
+    }
+}
+
 .lipper-content {
     max-width            : 1280px;
     margin               : auto;
@@ -166,21 +203,23 @@ body {
 }
 
 .box-right{
-    .hot-box{
+    .right-item-box{
         margin-top:20px;
         border-radius: 5px;
-        .hot-tip{
+        .item-box-tip{
             margin: 10px 0;
         }
         .hot-item{
             margin: 10px 0;
             display              : grid;
-            grid-template-columns: auto 200px;
+            grid-template-columns: 110px auto;
             background-color: #fff;
             border-radius: 5px;
             img{
                 width:100px;
-                height:80px;
+                height:70px;
+                border-radius: 5px;
+                margin: 5px;
             }
             .hot-content{
               display: flex;
@@ -190,5 +229,27 @@ body {
               }
             }
         }
+        .item-comment{
+            padding:10px;
+            background-color: #fff;
+            border-radius: 5px;
+            border-bottom: 1px dashed #DEDEDE;
+            .item-comment-header{
+                height:50px;
+                line-height: 50px;
+                display              : grid;
+                grid-template-columns: 60px auto 100px;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+            }
+            .item-comment-content{
+                padding: 10px;
+                background-color: rgb(255, 250, 250);
+            }
+        }
+
     }
 }
