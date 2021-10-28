@@ -1,0 +1,11 @@
+{
+    "ID": "ID",
+    "Cover": "封面",
+    "Category Name": "分类名称",
+    "Author Name": "作者名称",
+    "Is Top": "置顶",
+    "Comments": "评论数",
+    "View": "围观数",
+    "Created at":"创建时间",
+    "Updated at":"更新时间"
+}
