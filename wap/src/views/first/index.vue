@@ -32,7 +32,27 @@
                 </ul>
             </div>
             <div class="lipper-content">
-                <div class="warp box-left">
+                <div class="wap box-left">
+                    <div class="left-sub">
+                        <div class="left-sub-title">分类</div>
+                        <ul class="left-ul-sub2">
+                            <li>游玩</li>
+                            <li>观后感</li>
+                            <li>搞笑</li>
+                            <li>生活</li>
+                        </ul>
+                    </div>
+                    <div class="left-sub">
+                        <div class="left-title">分类</div>
+                        <ul class="left-ul-sub2">
+                            <li><a href="">游玩</a><b class="badge">12</b></li>
+                            <li><a href="">观后感</a><b class="badge">12</b></li>
+                            <li><a href="">搞笑</a><b class="badge">12</b></li>
+                            <li><a href="">生活</a><b class="badge">12</b></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="warp box-center">
                     <div class="lipper-item">
                         <div class="item-header">
                             <img src="@/assets/images/avatar.webp" class="lipper-avatar" alt=""/>
@@ -114,7 +134,7 @@
                             <div class="item-comment-content">
                                 钱到位IHI，请问企鹅哦ad
                             </div>
-                        </div> 
+                        </div>
                          <div class="item-comment">
                             <div class="item-comment-header">
                                 <img src="@/assets/images/avatar.webp" alt="" />
@@ -124,9 +144,9 @@
                             <div class="item-comment-content">
                                 钱到位IHI，请问企鹅哦ad
                             </div>
-                        </div> 
+                        </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

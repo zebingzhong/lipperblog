@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e12b338a596e373e6e6aa034a1ad81a",
+    "content-hash": "b97ac30afcc7e1b9dcbe55bfe44775d1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1482,6 +1482,68 @@
                 }
             ],
             "time": "2021-10-06T17:43:30+00:00"
+        },
+        {
+            "name": "jonexyz/wang-editor-v4",
+            "version": "1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonexyz/wang-editor-v4.git",
+                "reference": "54685a779148957919db604d84a7b1792b3e9007"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonexyz/wang-editor-v4/zipball/54685a779148957919db604d84a7b1792b3e9007",
+                "reference": "54685a779148957919db604d84a7b1792b3e9007",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "encore/laravel-admin": "~1.6",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jonexyz\\wangEditorV4\\wangEditorV4ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jonexyz\\wangEditorV4\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jone",
+                    "email": "abc@jone.xyz"
+                }
+            ],
+            "description": "description...",
+            "homepage": "https://github.com/jonexyz/wang-editor-v4",
+            "keywords": [
+                "extension",
+                "laravel-admin"
+            ],
+            "support": {
+                "issues": "https://github.com/jonexyz/wang-editor-v4/issues",
+                "source": "https://github.com/jonexyz/wang-editor-v4/tree/1"
+            },
+            "time": "2021-07-17T18:13:39+00:00"
         },
         {
             "name": "kalnoy/nestedset",

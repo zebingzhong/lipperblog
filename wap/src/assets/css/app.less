@@ -51,7 +51,10 @@ body {
 .warp {
     margin: 10px;
 }
-
+.badge {
+    background-color: #cfdadd;
+    border-radius: 10px;
+}
 //------------首页-----------------------
 //------------header--------------------
 .lipper-header {
@@ -131,7 +134,7 @@ body {
         flex-direction: row;
         margin-left: 300px;
         li{
-            width: 100px; 
+            width: 100px;
             margin: auto;
             display: flex;
             flex-direction: column;
@@ -150,18 +153,48 @@ body {
     max-width            : 1280px;
     margin               : auto;
     display              : grid;
-    grid-template-columns: auto 400px;
+    grid-template-columns: 200px auto 250px;
     .box-left {
-        margin: 10px;
+        background-color: #fff;
+        margin: 10px 10px 10px 0;
+        padding:10px;
+        .left-sub{
+            display:block;
+            padding:10px;
+            .left-sub-title{
+                height:30px;
+            }
+            ul{
+                margin-top:10px;
+                li{
+                    height:30px;
+                    line-height:30px;
+                    padding-left:20px;
+                    display:flex;
+                    justify-content: space-between;
+                    b{
+                        margin:5px 0;
+                        font-size: 11px;
+                        width:30px;
+                        height:20px;
+                        line-height:20px;
+                        padding-left:10px;
+                    }
+                }
+            }
+        }
+    }
+    .box-center{
+        margin: 10px 10px 10px 0;
     }
     .box-right {
-        margin: 10px;
+        margin: 10px 0;
     }
 }
 .lipper-item{
     padding:20px;
     background-color:#fff;
-    margin: 20px;
+    margin-bottom:10px;
     border-radius: 5px;
     .item-header{
         display: flex;
